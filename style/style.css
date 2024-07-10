@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.heading{
+    width: 1500px;
+    display: flex;
+     justify-content: space-between; 
+    
+    
+}
+.name{
+   margin: 30px 15px;
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+line-height: 33px;
+letter-spacing: 0%;
+/* text-align: left; */
+margin-left: 60px;
+}
+.Download{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 5px;
+     padding: 3px 20px 3px 20px; 
+    opacity: 0.8;
+    margin-right: 60px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 600;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: center;
+    
+}
+
+#develop{
+    width: 1530px;
+    background-image: url(../assets/Hero-bg.png);
+/* height: 697px; */
+margin-top: 30px;
+padding-top: 20px;
+padding-bottom: 20px;
+background-size: cover;
+background-position: center;
+display: flex;
+flex-direction: column;
+ justify-content: center; 
+ align-items: center; 
+margin-bottom: 50px;
+}
+#develop .parent{
+ width: 936px; 
+}
+
+#develop  .image{
+    width: 257px;
+    height: 240px;
+ left: 250.67%;
+right: -250.67%;
+top: 0%;
+bottom: 0%; 
+/* transform: rotate(180.00deg); */
+   
+}
+
+#develop .parent .title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 34px;
+    padding-bottom: 25px;
+}
+
+#develop .parent .random{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    padding-bottom: 54px;
+}
+
+.btn-container{
+    text-align: center;
+}
+.btn{
+    padding: 21px 24px 21px 24px;
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+background: rgb(13, 19, 33);
+border: none;
+cursor: pointer;
+}
+
+#web{
+    width: 1536px; 
+    padding: 50px;
+
+}
+#web .heading{
+    width: 936px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    /* text-align: center; */
+    
+    /* justify-content:center;
+    align-items: center; */
+    
+}
+#web .heading .title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 35px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center; 
+}
+
+#web .read .random{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left; 
+padding-top: 28px;
+}
+  #web .read{
+    width: 1400px;
+    margin: 50px;  
+    /* margin-left: 50px;
+    margin-right: 100px; */
+    display: flex;
+    
+    /* flex-direction: column; */
+    justify-content: space-between;
+} 
+ #web .read .read1{
+    width: 700px;
+    text-align: left;
+     justify-content: center;
+     /* margin-left: 100px; */
+}
+#web .read .read1 .heading1{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#web .read .read1 .random1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 17px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+padding-top: 18px;
+padding-bottom: 46px;
+}
+
+#web .read .image1{
+    width: 265px;
+    text-align: right;
+     margin-right: 150px;
+} 
+#web .read .read1 .btn-container1{
+    text-align: left;
+   
+}
+#web .read .read1 .btn-container1 .btn1{
+    padding: 12px 20px 12px 20px;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
+#inspire{
+    width: 1536px;
+
+}
+ #inspire .heading2{
+    margin-left: 300px;
+    width: 900px;
+    justify-content: centerx;
+    text-align: center;
+
+} 
+#inspire .heading2 .title2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+#inspire .heading2 .random2{
+   
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+padding-top: 26px;
+padding-bottom: 83px;
+}
+#inspire .video-container .video{
+    margin-left: 100px;
+    margin-right: 50px;
+    padding: 38px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+
+}
