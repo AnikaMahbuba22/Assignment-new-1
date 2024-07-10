@@ -293,7 +293,8 @@ padding-bottom: 48px;
 }
 .card{
     display: flex;
-    gap:24px
+    gap:24px;
+    margin-bottom: 60px;
     
 }
 .card .card1{
@@ -326,6 +327,7 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
 padding-bottom: 30px;
+
 }
  .bg1{
     background: rgba(255, 76, 30, 0.05);
@@ -336,3 +338,14 @@ background: rgba(0, 76, 232, 0.05);
 .bg3{
 background: rgba(255, 223, 0, 0.05);
 }
+/* #advance{
+    width: 1044px;
+    height: 186px;
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+background-position: center;
+display: flex;
+}
+#advance .bgim{
+    
+} */
