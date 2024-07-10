@@ -23,11 +23,15 @@ letter-spacing: 0%;
 /* text-align: left; */
 margin-left: 60px;
 }
+.heading .dwn-con{
+    text-align: right;
+    margin-top: 20px;
+}
 .Download{
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 5px;
-     padding: 3px 20px 3px 20px; 
+     padding: 12px 20px 12px 20px; 
     opacity: 0.8;
     margin-right: 60px;
     color: rgb(13, 19, 33);
